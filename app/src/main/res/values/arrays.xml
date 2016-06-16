@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array  name="feedback_categray">
+        <item>意见建议</item>
+        <item>问题</item>
+        <item>投诉</item>
+        <item>吐槽</item>
+    </string-array>
+
+  <string-array name="weekDays">
+      <item>周日</item>
+      <item>周一</item>
+      <item>周二</item>
+      <item>周三</item>
+      <item>周四</item>
+      <item>周五</item>
+      <item>周六</item>
+  </string-array>
+  
+
+    
+    <string-array name="getPic">
+        <item >选择本地图片</item>
+        <item >拍照</item>
+    </string-array>
+
+    <!-- 订单状态0-下单 1-派送中 2-签收 -->
+  <string-array name="order_state">
+      <item >0:下单成功</item>
+      <item >1:派送中</item>
+      <item >2:已签收</item>
+  </string-array>
+  
+  <string-array name="nums">
+      <item >0</item>
+      <item >1</item>
+      <item >2</item>
+      <item >3</item>
+      <item >4</item>
+      <item >5</item>
+      <item >6</item>
+      <item >7</item>
+      <item >8</item>
+      <item >9</item>
+      <item >10</item>
+  </string-array>
+  
+  <string-array name="select_times">
+        <item >上午 10:00</item>
+        <item >中午 12:00</item>
+        <item >下午 18:00</item>
+  </string-array>
+</resources>

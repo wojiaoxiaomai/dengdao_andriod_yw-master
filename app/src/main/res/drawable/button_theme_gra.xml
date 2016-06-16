@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+          <!--  <gradient
+                android:startColor="@color/themecolor_text_click"
+                android:endColor="@color/themecolor_text_g_click"/>-->
+            <solid
+                android:color="@color/themecolor_text_click"/>
+            <padding
+                android:left="2dp"
+                android:top="2dp"
+                android:right="2dp"
+                android:bottom="2dp"
+                />
+        </shape>
+    </item>
+    <item android:state_checked="true" >
+        <shape>
+           <!-- <gradient
+                android:startColor="@color/themecolor_text_click"
+                android:endColor="@color/themecolor_text_g_click"/>-->
+            <solid
+                android:color="@color/themecolor_text_click"/>
+            <padding
+                android:left="2dp"
+                android:top="2dp"
+                android:right="2dp"
+                android:bottom="2dp"
+                />
+        </shape>
+    </item>
+    <item android:state_enabled="false" >
+        <shape>
+            <solid android:color="#cccccc" />
+        </shape>
+    </item>
+   <item>
+       <shape>
+        <!--   <gradient
+               android:startColor="@color/themecolor_text"
+               android:endColor="@color/themecolor_text_g"/>-->
+           <solid
+               android:color="@color/themecolor_text"/>
+           <padding
+               android:left="2dp"
+               android:top="2dp"
+               android:right="2dp"
+               android:bottom="2dp"
+               />
+       </shape>
+   </item>
+
+</selector>

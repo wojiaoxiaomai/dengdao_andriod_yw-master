@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+            <TextView
+                android:id="@+id/tv_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/theme_grey"
+                android:text="@string/exam_simulation_promt_4"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TableRow
+                    android:background="@color/white"
+                    >
+                    <TextView
+                        style="@style/normal_TextView"
+                        android:text="学员姓名"
+                        android:textColor="@color/light_dark"
+                        android:paddingLeft="10dp"
+                        android:drawableLeft="@mipmap/st_name_order"
+                        android:drawablePadding="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_st_name"
+                        style="@style/normal_EditText_nobg"
+                        android:background="@null"
+                        />
+                </TableRow>
+                <View
+                    style="@style/normal_line1"/>
+                <TableRow
+                    android:background="@color/white"
+                    >
+                    <TextView
+                        style="@style/normal_TextView"
+                        android:text="@string/client_tel"
+                        android:textColor="@color/light_dark"
+                        android:paddingLeft="10dp"
+                        android:drawableLeft="@mipmap/st_tel_order"
+                        android:drawablePadding="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_st_tel"
+                        style="@style/normal_EditText_nobg"
+                        android:background="@null"
+                        />
+                </TableRow>
+                <View
+                    style="@style/normal_line1"/>
+                <TableRow
+                    android:background="@color/white"
+                    >
+                    <TextView
+                        style="@style/normal_TextView"
+                        android:text="@string/IDCard"
+                        android:textColor="@color/light_dark"
+                        android:paddingLeft="10dp"
+                        android:drawableLeft="@mipmap/st_idno_order"
+                        android:drawablePadding="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_st_idno"
+                        style="@style/normal_EditText_nobg"
+                        android:background="@null"
+
+                        />
+                </TableRow>
+                <View
+                    style="@style/normal_line1"/>
+                <View
+                    style="@style/normal_line1"
+                    android:layout_marginTop="10dp"
+                    />
+                <TableRow
+                    android:background="@color/white"
+                    >
+                    <TextView
+                        style="@style/normal_TextView"
+                        android:text="教练电话"
+                        android:textColor="@color/light_dark"
+                        android:paddingLeft="10dp"
+                        android:drawableLeft="@mipmap/coach_tel"
+                        android:drawablePadding="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_st_coach_idno"
+                        style="@style/normal_EditText_nobg"
+                        android:background="@null"
+                        />
+                </TableRow>
+                <View
+                    style="@style/normal_line1"/>
+                <TableRow
+                    android:background="@color/white"
+                    >
+                    <TextView
+                        style="@style/normal_TextView"
+                        android:text="@string/owerschool"
+                        android:textColor="@color/light_dark"
+                        android:paddingLeft="10dp"
+                        android:drawableLeft="@mipmap/drivingschool"
+                        android:drawablePadding="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_st_coach_school"
+                        style="@style/normal_EditText_nobg"
+                        android:background="@null"
+                        />
+                </TableRow>
+                <View
+                    style="@style/normal_line1"/>
+                <View
+                    style="@style/normal_line1"
+                    android:layout_marginTop="10dp"
+                    />
+                <TableRow
+                    android:background="@color/white"
+                    >
+                    <TextView
+                        style="@style/normal_TextView"
+                        android:text="推荐人电话"
+                        android:textColor="@color/light_dark"
+                        android:paddingLeft="10dp"
+                        android:drawableLeft="@mipmap/referrer"
+                        android:drawablePadding="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_referrer"
+                        style="@style/normal_EditText_nobg"
+                        android:background="@null"
+                        />
+                </TableRow>
+
+            </TableLayout>
+
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/btn_sure"
+        style="@style/button_theme"
+        android:text="确认学员信息"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

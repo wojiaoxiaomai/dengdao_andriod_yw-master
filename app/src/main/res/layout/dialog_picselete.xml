@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#b0000000"
+      >
+     <TextView
+            android:id="@+id/cancelhandl"
+            style="@style/dialoglist_Textview"
+            android:text="@string/selectCancle"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            />
+     <RelativeLayout
+         android:id="@+id/seletelist_two"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_above="@id/cancelhandl"
+       >
+          <TextView
+                android:id="@+id/getpic_fromsdcard"
+               style="@style/dialoglist_Textview"
+               android:text="@string/dialog_getpic_fromsd"
+               android:layout_alignParentBottom="true"
+            />
+           <View
+               android:id="@+id/line3"
+               style="@style/normal_line1"
+               android:layout_above="@id/getpic_fromsdcard"
+               android:background="@color/dialog_bg"
+             />
+           <TextView
+               android:id="@+id/getpic_fromcamer"
+              style="@style/dialoglist_Textview"
+              android:text="@string/takepic"
+              android:layout_above="@id/line3"
+             />
+        </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/contentPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+    <LinearLayout
+        android:id="@+id/circle_images"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        />
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rightnow_begin"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/button_circle_theme"
+        android:textColor="@color/white"
+        android:layout_above="@id/circle_images"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textSize="@dimen/text_18sp"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

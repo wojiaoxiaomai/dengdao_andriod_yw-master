@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 14
+    buildToolsVersion "20.0.0"
+
+   /* defaultConfig {
+        applicationId "com.jeremyfeinstein.slidingmenu.lib"
+        minSdkVersion 5
+        targetSdkVersion 17
+    }*/
+
+    buildTypes {
+        release {
+            apply plugin: 'eclipse'
+           // runProguard false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+}

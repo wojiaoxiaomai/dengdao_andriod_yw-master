@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dengdao2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_apk_update">发现新版本，是否更新(建议更新到最新版本)！</string>
+    <string name="dialog_submit">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="app_search_results">搜索结果</string>
+    <string name="app_no_search_results">没有搜索结果</string>
+    <string name="app_succeed">成功！</string>
+    <string name="app_failure">失败！</string>
+    <string name="app_back">返回</string>
+    <string name="app_dialog_hint">提示</string>
+    <string name="app_loading">请稍候，正在拉取数据....</string>
+    <string name="app_loading_none">未找到数据.</string>
+    <string name="app_loading_fail">数据加载失败，请稍后再试.</string>
+    <string name="app_loading_fail_web">网页加载失败，请稍后再试.</string>
+    <string name="app_refresh">刷新</string>
+    <string name="app_share">分享</string>
+    <string name="retry_large_image"><u>加载失败，点击重试</u></string>
+    <string name="app_exit_title">退出</string>
+    <string name="app_exit_message">确定退出应用?</string>
+    <string name="app_list_header_refresh_down">下拉刷新</string>
+    <string name="app_list_header_refreshing">正在刷新</string>
+    <string name="app_list_header_refresh_up">松开刷新</string>
+    <string name="app_list_header_refresh_last_update">上次更新于:%s</string>
+    <string name="app_list_footer_more">更多</string>
+    <string name="app_list_footer_loading">正在加载</string>
+    <string name="app_list_noloadData">不能再加载更多数据！</string>
+    <string name="app_list_noMoreData">没有更多数据！</string>
+    <string name="app_no_newest_data">没有最新数据</string>
+    <string name="app_footer_loading_wait">正在加载数据,请稍等！</string>
+    <string name="app_get_data_wait">正在获取数据,请稍等！</string>
+    <string name="app_loading_data_wait">正在装载数据,请稍等！</string>
+    <string name="app_loading_img">正在加载图片！</string>
+    <string name="app_upload_img">正在上传图片！</string>
+    <string name="app_uploading_img_this">正在上传该图片</string>
+    <string name="app_upload_img_failure">上传图片失败，点击重新上传！</string>
+    <string name="app_dialog_progress_default">加载中。。。</string>
+    <string name="app_dialog_progress_loading">请稍候，正在获取数据....</string>
+    <string name="app_dialog_progress_commit">请稍候，正在提交数据....</string>
+    <string name="app_dialog_progress_commit_fail">数据加载失败，请稍后再试.</string>
+    <string name="app_dialog_progress_loading_none">未找到数据.</string>
+    <string name="app_dialog_progress_loading_fail">数据加载失败，请稍后再试.</string>
+    <string name="app_dialog_progress_loading_fail_web">网页加载失败，请稍后再试.</string>
+    <string name="app_init_await">相关数据未初始化完成，请稍等再试！</string>
+    <string name="app_time">时间</string>
+    <string name="app_timeout">超时</string>
+    <string name="app_no_null">不能为空！</string>
+    <string name="app_please_select">请选择</string>
+    <string name="app_please_input">请输入</string>
+    <string name="app_add">添加</string>
+    <string name="app_update">修改</string>
+    <string name="app_delete">删除</string>
+    <string name="app_getServerDataException">服务器返回数据异常，请再试一次！</string>
+    <string name="app_connectServerDataException">服务器连接异常，请再试一次！</string>
+    <string name="app_getServerDataError">服务器返回数据错误，请再试一次！</string>
+    <string name="app_Session_invalidation">您当前登录状态已失效！</string>
+    <string name="app_ReLogin">是否重新登录?</string>
+    <string name="app_collection">收藏</string>
+    <string name="app_subscribe">预约</string>
+    <string name="app_comment_succeed">已评论！</string>
+    <string name="app_comment_failure">评论失败！</string>
+    <string name="app_hour">小时</string>
+    <string name="app_minute">分</string>
+    <string name="app_content">内容</string>
+    <string name="app_captcha">验证码</string>
+    <string name="app_select_age">请选择年龄</string>
+    <string name="app_annum">岁</string>
+    <string name="app_men">男</string>
+    <string name="app_women">女</string>
+    <string name="app_phone_number">手机号</string>
+    <string name="app_tel">电话</string>
+    <string name="app_delete_remind">你确定要删除吗？</string>
+    <string name="app_title">标题</string>
+    <string name="app_1day">一天前</string>
+    <string name="app_2day">两天前</string>
+    <string name="app_nday">天前</string>
+    <string name="app_nminute">分钟前</string>
+    <string name="app_nhour">小时前</string>
+
+    <string name="login_username">用户名</string>
+    <string name="login_password">密码</string>
+    <string name="login_password_confirm">确认密码</string>
+    <string name="login_forget_password">忘记密码？</string>
+    <string name="login_new_user">新用户</string>
+    <string name="login_login">登录</string>
+
+    <string name="login_send_messagesend">发送验证码</string>
+    <string name="login_login_YZ">验证用户名密码</string>
+    <string name="login_login_YZ_succeed">登录成功</string>
+    <string name="login_login_YZ_failure">用户名/密码错误</string>
+    <string name="login_getToken_Failure">获取Token失败</string>
+    <string name="login_getToken">登录获取token</string>
+    <string name="login_schedule">登录进度</string>
+    <string name="login_input_userName">请输入您的账号</string>
+    <string name="login_input_userPassword">请输入您的密码</string>
+    <string name="login_userPassword_confirm_inconformity">密码与确认密码输入不一致</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- zxing(start) -->
+    <string name="placeHolder">placeHolder</string>
+    <string name="seekbar_add">+</string>
+    <string name="seekbar_minus">-</string>
+    <string name="create">生成</string>
+    <string name="scan_failed">扫描失败</string>
+    <string name="bottom_hint">建议与镜头保持10CM距离，尽量避免逆光和阴影</string>
+    <string name="top_hint">将条形码或二维码置于取景框内系统会自动扫描</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="button_ok">确定</string>
+    <!-- zxing(end) -->
+
+    <!--TimeFormat-->
+    <string name="dateformat1">yyyy年MM月dd日</string>
+    <string name="dateformat2">yyyy年MM月dd日HH时mm分</string>
+    <string name="dateformat31">yyyy/MM/dd</string>
+    <string name="dateformat32">MM/dd</string>
+    <string name="dateformat41">yyyy-MM-dd"</string>
+    <string name="dateformat42">yyyy-MM-dd HH:mm:ss</string>
+    <string name="dateformat43">yyyy-MM-dd HH:mm:ss.SSS</string>
+    <string name="dateformat45">mm:ss</string>
+    <string name="day">天</string>
+    <string name="hour">小时</string>
+    <string name="minute">分钟</string>
+    <string name="second">秒</string>
+
+    <string name="homepage">首页</string>
+    <string name="firstpage">已到第一页</string>
+    <string name="lastpage">已到最后一页</string>
+    <string name="load_more_data">获得更多数据</string>
+    <string name="no_more_data">没有更多数据了</string>
+    <string name="no_found_sdcard">未找到SDcard</string>
+
+    <!-- CrashHandler -->
+    <string name="crash_exception">很抱歉,程序出现异常,即将退出.</string>
+    
+    <!-- UILApplication -->
+    <string name="initmapError">地图初始化错误!</string>
+    <string name="neterror">您的网络出错啦！</string>
+    <string name="pleaseinputCorrectconditon_search">输入正确的检索条件！</string>
+    <string name="pleasecheckyounetIsok">请检查您的网络连接是否正常！</string>
+    <string name="pleasecheckNet">请检查网络</string>
+    <string name="handlefail">本次操作失败，请稍后再试！</string>
+    <string name="dataexception">数据异常！</string>
+    <string name="vertifyaccountfail">用户验证失败，请重新登录！</string>
+    
+    <!-- ConnectService -->
+    <string name="connectexception">连接异常，请稍后重试！</string>
+    <string name="postbady"><![CDATA[<?xml version=\"1.0\" encoding=\"utf-8\"?><string>]]></string>
+    
+    <!-- DialogConfi -->
+    <string name="loading">数据加载…</string>
+    <string name="prompt">提示</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="sure3">确\u0020\u0020\u0020\u0020定</string>
+    <string name="cancel3"><u>取\u0020\u0020\u0020\u0020消</u></string>
+    <string name="takepic">拍照</string>
+    <string name="selectCancle">取消</string>
+    <string name="whetherlogin">是否立即登录？</string>
+    <string name="login_now">马上登录</string>
+    <string name="login_later">稍后登录</string>
+    <string name="exitpressedagain">再按一次退出</string>
+    <string name="whetertoopengps">无线网络定位已关闭，是否打开?</string>
+    <string name="dialog_getpic_fromsd">从相册中选取</string>
+    <string name="repeat_getverifycode2">重新发送(%1$s)</string>
+    <string name="nosdcartosavePic">未找到存储卡，无法存储照片！</string>
+    <string name="share">分享</string>
+    <string name="submit">提交</string>
+   <!-- Validator --> 
+   <string name="outofLength">超过规定的长度</string>
+   <string name="pleaseinputcorrect">请输入正确的</string>
+   <string name="pleaseinput">请输入</string> 
+   
+   <!-- BitmapUtil -->
+   <string name="pictureIsNull">图片为空</string>
+    <string name="rightnow_begin">立即体验</string>
+   
+   <!-- NetService -->
+   <string name="service_netconnect">来自Service的信息：网络已连接！</string>
+   <string name="service_netbreakdown">来自Service的信息：网络已断开！</string>
+   
+      <!-- appUpdate -->
+    <string name="check_update">检查更新</string>
+    <string name="current_version">当前版本：%1$s</string>
+    <string name="this_is_lastversion">当前已是最新版本</string>
+    <string name="get_newVersion">检测到新版本，请点击确定更新</string>
+    <string name="app_updateing">正在下载：app终端</string>
+    <string name="service_no_action">更新服务器暂时无法响应</string>
+    <string name="download_suc">下载完成</string>
+    <string name="copyright">Copyright@2003–2014 CNFEOL</string>
+
+
+    <!-- 登陆 -->
+    <string name="login">登陆</string>
+    <string name="username">用户名</string>
+    <string name="name_hint">手机号/邮箱/用户名</string>
+    <string name="pwd">密码</string>
+    <string name="register">立即注册</string>
+    <string name="foget_pwd">忘记密码</string>
+    <string name="find_pwd">找回密码</string>
+    <string name="other_methodlogin">使用其他方式登陆</string>
+    <string name="SinaWeibo">新浪微博</string>
+    <string name="TencentWeibo">腾讯微博</string>
+    <string name="TencentQQ">腾讯QQ</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="pwd_hint">请输入密码</string>
+    <string name="pwd_old_hint">请输入旧密码</string>
+    <string name="pwd_new_hint">请输入新密码</string>
+    <string name="input_hint">请输入</string>
+
+
+    <!-- 修改密码 -->
+    <string name="reset_pwd">重置密码</string>
+    <string name="Set">设置</string>
+    <string name="getverifycode">获取验证码</string>
+    <string name="repeatpwd">重置密码</string>
+
+    <!-- 注册 -->
+    <string name="register_title">注册</string>
+    <string name="phonenum">手机号码：</string>
+    <string name="phonenum2">手机号码</string>
+    <string name="phonenum_hint">请输入您的手机号</string>
+    <string name="pwd2">密\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020码：</string>
+    <string name="pwd2_hint">请输入密码</string>
+    <string name="pwdrepeat">确认密码：</string>
+    <string name="pwdrepeat_hint">请再次输入密码</string>
+    <string name="IDCard">身份证</string>
+    <string name="true_name">真实姓名</string>
+    <string name="client_tel">联系电话</string>
+    <string name="client_Address">详细地址</string>
+    <string name="client_HouseNum">门牌号码：</string>
+    <string name="name">姓名</string>
+    <string name="coach_name">教练姓名</string>
+    <string name="client_tel2">联系电话</string>
+    <string name="client_Alternate_Phone">备用电话</string>
+    <string name="client_Street_Address2">街道地址</string>
+    <string name="pwddifferent">两次输入的密码不相同</string>
+    <string name="i_have_read">我已阅读并同意</string>
+    <string name="register_xieyi"><u>《服务协议》</u></string>
+    <string name="xieyi_prompt">请选择已阅读协议</string>
+    <string name="phome_diff">注册的手机号与获取验证码的手机号不同</string>
+    <string name="i_hava_account">我要登录/注册</string>
+     <!-- register -->
+    <string name="next_step">下一步</string>
+    <string name="verifycode">验证码</string>
+    <string name="verifycode_hint">请输入短信验证码</string>
+    <string name="repeat_getverifycode">重新发送</string>
+    <string name="verifycode_prompt">我们已经给您的手机号码%1$s发送了一条验证短信</string>
+    <string name="submitpersoninfo">信息提交</string>
+    <string name="setpwd_hint">请输入您的密码</string>
+    <string name="pwd_prompt">密码由6–16位数字、字母或符号组成</string>
+    <string name="nickname">昵称</string>
+    <string name="nickname_hint">请输入您的昵称</string>
+    <string name="nickname_prompt">建议填写你的真实名字，让别人可以更好的称呼你。此昵称以后可以随时修改。</string>
+    <string name="invitecode">邀请码</string>
+    <string name="invitecode_hint">请输入邀请码</string>
+    <string name="invitecode_prompt">输入邀请码可立即获得￥3元现金奖励！</string>
+    
+
+    <!-- 修改密码 -->
+    <string name="systemSet">系统设置</string>
+   <string name="modify_pwd">修改密码</string>
+	<string name="old_pwd">旧密码</string>
+	<string name="new_pwd">新密码</string>
+	<string name="sure_pwd">确认密码</string>
+	<string name="new_pwd_different">两次输入的新密码都不同</string>
+	<string name="modify_pwd_suc">密码修改成功</string>
+    <string name="sure_modify">确认修改</string>
+
+    <!--我的-->
+    <string name="person_info">个人信息</string>
+    <string name="my_account">我的账户</string>
+    <string name="my_income">我的收入</string>
+    <string name="my_Invite">我的邀请码</string>
+    <string name="my_version">版本更新</string>
+
+   <!-- set -->
+    <string name="version">版本</string>
+    <string name="feedback">投诉反馈</string>
+    <string name="use_help">使用帮助</string>
+    <string name="CN_canNotBeenPwd">中文不可设置为密码</string>
+    <string name="contact_serivice">联系客服</string>
+    <string name="check_appupdate">检查更新</string>
+    <string name="help">服务协议</string>
+    <string name="about">关于我们</string>
+    <string name="logout">退出登录</string>
+    <string name="update_now">立即更新</string>
+    <string name="call">立即拨打</string>
+    <string name="contact_our">联系我们</string>
+    <string name="latest_version">已是最新版本</string>
+    <string name="found_last_version">发现新版本</string>
+    <string name="are_you_sure_to_exit">是否确认注销当前账号？</string>
+    <string name="kefu_tel">立即拨打：400–084–8850</string>
+    <string name="kefu_tel2">400–084–8850</string>
+
+    <!--地址管理-->
+    <string name="add_address">添加地址</string>
+    <string name="add_set_default">默认地址</string>
+    <string name="add_hint">默认</string>
+    <string name="are_you_sure_to_delete_address">是否确认删除该地址？</string>
+    <string name="are_you_sure_to_set_hintaddress">是否确认设置为默认地址?</string>
+    <string name="add_address_suc">添加地址成功</string>
+    <string name="order_recever_name2">收货人</string>
+    <string name="save">保存</string>
+    <string name="plan_course">课时安排</string>
+    <string name="examroom_simulation">考场模拟</string>
+    <string name="drivingtest_driver">驾考司机</string>
+    <string name="my_order">我的订单</string>
+    <string name="submit_check_info">审核基本信息</string>
+    <string name="account_balance">余额</string>
+
+    <string name="price_unit">￥</string>
+    <string name="alipay_account">支付宝账户</string>
+    <string name="tixian_money">提现金额</string>
+    <string name="tixian_money_wrong_prompt">提现金额不可以大于账户余额</string>
+    <string name="account_tixian_suc">提现申请成功，我们将在3个工作日内未您处理！</string>
+    <string name="recharge_money_hint">请填写充值金额</string>
+    <string name="tx_account_info_prompt">提现账户不可以为空</string>
+    <string name="tx_value_info_prompt">提现金额不可以为空</string>
+    <string name="recharge_min_money">最小充值金额不得低于0.01元</string>
+    <string name="are_you_sure_to_giveup_to_rechange">是否确认放弃本次充值？</string>
+
+
+    <!--意见反馈-->
+    <string name="your_feedback">您的意见或建议</string>
+    <string name="outofline">您输入的字数已超过限制</string>
+    <string name="isgiveup">是否放弃编辑的信息?</string>
+    <string name="inputwarn">提交的内容不能为空</string>
+    <string name="feedback_suc">感谢您的支持！</string>
+    <!--模拟考试-->
+    <string name="examarea_tel">联系电话：%1$s</string>
+    <string name="exam_simulation_promt_2">您已选择%1$s，请选择模拟考试科目</string>
+    <string name="exam_simulation_promt_3">您已选择%1$s，请选择模拟考试日期</string>
+    <string name="exam_simulation_promt_4"><Data><![CDATA[您已选择<font color="#ff6400">%1$s</font>，模拟考试日期<font color="#ff6400">%2$s</font>,请选择模拟考试时段]]></Data></string>
+    <string name="exam_total_count">总%1$s名额</string>
+    <string name="exam_balance">剩余%1$s名额</string>
+    <string name="exchange_txt_hint"><Data><![CDATA[请在确认订单之前阅读<font color="#ff6400"><b>《预约模拟考试协议》</b></font>，并检查订单详情！订单确认后，不能修改。]]></Data></string>
+    <string name="owerschool">所属驾校</string>
+    <string name="submit_order">提交订单</string>
+    <string name="sure_studentinfo_promt"><Data><![CDATA[您已选择<font color="#ff6400">%1$s</font>，模拟考试日期<font color="#ff6400">%2$s</font>,请确认学员资料]]></Data></string>
+    <string name="select_time_fail">i</string>
+    <string name="teaching_month">%1$s年  %2$s月</string>
+    <string name="teaching_hour_selectime"><Data><![CDATA[预约时间：<font color="#b1b0b0">%1$s月%2$s日</font>]]></Data></string>
+    <string name="sexandage">性别：%1$s  年龄：%2$s</string>
+    <string name="jiguan">籍贯：%1$s</string>
+    <string name="per_tel">电话：%1$s</string>
+
+
+    <string name="recharge">充值</string>
+    <string name="tixian">提现</string>
+    <string name="edituser_input_null">填写的信息不可以为空</string>
+</resources>

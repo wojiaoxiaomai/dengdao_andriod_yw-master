@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:background="@drawable/whitebg_with_greyline_bot"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+            <TextView
+                style="@style/text_title"
+                android:text="收货人" />
+
+            <EditText
+                android:id="@+id/name_edit"
+                style="@style/normal_EditText"
+                android:background="@null"
+                android:hint="@string/input_hint"
+                android:maxLength="40"
+                />
+        </TableRow>
+        <TableRow
+            android:background="@drawable/whitebg_with_greyline_bot"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+            <TextView
+                style="@style/text_title"
+                android:text="联系电话" />
+
+            <EditText
+                android:id="@+id/tel_edit"
+                style="@style/normal_EditText"
+                android:hint="@string/input_hint"
+                android:inputType="number"
+                android:maxLength="11"
+                />
+            </TableRow>
+        <TableRow
+            android:background="@drawable/whitebg_with_greyline_bot"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+
+            <TextView
+                style="@style/text_title"
+                android:text="详细地址" />
+
+            <EditText
+                android:id="@+id/addr_edit"
+                style="@style/normal_EditText"
+                android:hint="××栋××单元××号"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/item_height"
+                android:maxLines="2"
+                 />
+        </TableRow>
+        <Button
+            android:id="@+id/save_btn"
+            style="@style/button_theme"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/save" />
+    </TableLayout>
+
+
+
+
+
+
+</LinearLayout>

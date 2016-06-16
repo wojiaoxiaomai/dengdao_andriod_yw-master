@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whitebg_with_greyline_bot"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            style="@style/text_title"
+            android:textSize="@dimen/text_14sp"
+            android:text="学员手机号" />
+
+        <EditText
+            android:id="@+id/edit_st_tel"
+            style="@style/normal_EditText"
+            android:background="@null"
+            android:hint="@string/input_hint"
+            android:inputType="phone"
+            />
+    </LinearLayout>
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/button_theme"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:text="添加" />
+
+
+
+
+
+
+</LinearLayout>

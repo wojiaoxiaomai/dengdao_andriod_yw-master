@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <TextView
+            android:id="@+id/tv_bmzn"
+            style="@style/TextView_witharrow_grey"
+            android:text="报名指南"
+            android:drawablePadding="10dp"
+            android:background="@android:color/transparent"
+            />
+        <View
+            style="@style/normal_line2"
+           />
+    <TextView
+        android:id="@+id/tv_rjsybz"
+        style="@style/TextView_witharrow_grey"
+        android:text="软件使用帮助"
+        android:drawablePadding="10dp"
+        android:background="@android:color/transparent"
+        />
+    <View
+        style="@style/normal_line2"
+        />
+</LinearLayout>

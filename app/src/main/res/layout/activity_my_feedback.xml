@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            style="@style/normal_TextView"
+            android:text="标签："
+            android:padding="10dp"
+            android:textSize="@dimen/text_14sp"
+            />
+        <RadioGroup
+            android:id="@+id/rb_feedback_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            >
+            <RadioButton
+                android:id="@+id/rb_ts"
+                android:layout_width="60dp"
+                android:layout_height="22dp"
+                android:text="投诉"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:background="@drawable/button_theme"
+                android:textColor="@drawable/text_greywithe_style"
+
+                />
+            <RadioButton
+                android:id="@+id/rb_yj"
+                android:layout_width="60dp"
+                android:layout_height="22dp"
+                android:text="意见"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:background="@drawable/button_theme"
+                android:textColor="@drawable/text_greywithe_style"
+                android:layout_marginLeft="10dp"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_msg"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/whitebg_with_greyline_topbottom"
+        android:gravity="top"
+        android:hint="感谢您的支持，点击输入反馈！"
+        android:padding="10dp"
+        android:textColor="@color/light_dark"
+        android:textColorHint="@color/hint_textcolor"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/bt_submit"
+        style="@style/button_theme"
+        android:text="发送"
+        android:layout_margin="20dp"
+        />
+</LinearLayout>
